@@ -11,3 +11,5 @@ class ChildComponent extends Component {
     );
   }
 }
+
+export default ChildComponent;

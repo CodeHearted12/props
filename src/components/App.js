@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import registerServiceWorker from './registerServiceWorker';
 import ParentComponent from './ParentComponent'
-
-
-
-
-
-
-
-
-
-
+import BaseLayout from './BaseLayout'
 
 
 class App extends Component {
@@ -19,9 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <BaseLayout></BaseLayout>
-        <Header />
+
         <ParentComponent />
-        <Footer />
+      
       </div>
     );
   }
