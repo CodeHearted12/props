@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import react, { Component } from 'react';
 import ChildComponent from './ChildComponent'
 import DisplayComponent from './DisplayComponent'
 // import '../styles/ParentComponent.css'

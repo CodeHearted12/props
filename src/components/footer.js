@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import react, { Component } from 'react';
 
 
 class Footer extends Component {
