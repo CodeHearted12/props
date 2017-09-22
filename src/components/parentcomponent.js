@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ChildComponent from './ChildComponent'
-import DisplayComponent from './DisplayComponent'
-// import '../styles/ParentComponent.css'
+import ChildComponent from '../components/ChildComponent.js'
+import DisplayComponent from '../components/DisplayComponent.js'
+
 
 class ParentComponent extends Component {
   constructor(props){
