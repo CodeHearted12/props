@@ -1,8 +1,8 @@
-import react from 'react';
-import reactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './styles/App.css';
+import App from './components/App.js';
 import registerServiceWorker from './registerServiceWorker';
 
-reactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

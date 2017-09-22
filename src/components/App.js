@@ -1,4 +1,4 @@
-import react, { Component } from 'react';
+import React, { Component } from 'react';
 import '../styles/App.css';
 import ParentComponent from './ParentComponent'
 import BaseLayout from './BaseLayout'
