@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import ParentComponent from './ParentComponent'
+import parentcomponent from './parentcomponent'
 import BaseLayout from './BaseLayout'
 import Footer from './Footer';
 
@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <BaseLayout/>
 
-         <ParentComponent />
+         <parentcomponent />
          <Footer/>
       </div>
     );

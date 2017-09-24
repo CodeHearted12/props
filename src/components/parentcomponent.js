@@ -3,7 +3,7 @@ import ChildComponent from '../components/ChildComponent.js'
 import DisplayComponent from '../components/DisplayComponent.js'
 
 
-class ParentComponent extends Component {
+class parentcomponent extends Component {
   constructor(props){
     super(props);
 
@@ -47,4 +47,4 @@ class ParentComponent extends Component {
     );
   }
 }
-export default ParentComponent;
+export default parentcomponent;
